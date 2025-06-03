@@ -1,12 +1,12 @@
-'use client';
+'use client'
+
+import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
-export default function ClientRoutePage() {
-
-const settings = {
+export const ImageSlider = () => {
+  const settings = {
     dots: true,
   };
   return (
