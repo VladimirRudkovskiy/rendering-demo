@@ -1,5 +1,7 @@
 import { cookies } from "next/headers"
 
+// in Next.js dynamic functions are: cookies(), headers(), connection(), draftMode(), searchParams prop, after()
+
 export default async function AboutPage() {
 
 	const cookieStore = await cookies();
