@@ -1,5 +1,5 @@
 import { serverSideFunction } from "@/utils/server-utils"
-import { ImageSlider } from "../components/ImageSlider";
+import { ImageSlider } from "../../components/ImageSlider";
 import { clientSideFunction } from "@/utils/client-utils";
 
 
